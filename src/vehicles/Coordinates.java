@@ -15,7 +15,7 @@ public class Coordinates {
             this.longitude = 0;
         else
             this.longitude =longitude;
-        if (height < 0)
+        if (height < 1)
             this.height = 0;
         else if (height > 100)
             this.height = 100;
@@ -23,8 +23,6 @@ public class Coordinates {
         {
             this.height = height;
         }
-        //System.out.println("\nheight: " + this.height + "\nlatitude: " + this.latitude + "\nlongitude: " + this.longitude);
-
     }
     public int getLongitude() {
         return this.longitude;

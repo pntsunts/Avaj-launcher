@@ -3,7 +3,6 @@ package src.weather;
 import src.vehicles.*;
 
 public class WeatherTower extends Tower {
-    WeatherProvider weatherProvider = new WeatherProvider(); 
 
     public String getWeather(Coordinates coordinates)
     {
